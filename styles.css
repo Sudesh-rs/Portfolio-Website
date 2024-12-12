@@ -28,9 +28,6 @@ body{
   margin:auto;
 }
 
-
-
-
       /*---------------------------Header---------------------------*/
 
 .header-area{
@@ -107,9 +104,7 @@ body{
   display: none;
 }
 
-
 /*---------------------------HomePage--------------------------*/
-
 .FirstElement{
    display:flex;
    justify-content: space-around;
@@ -164,8 +159,6 @@ profile-photo .img{
   transform: rotate(360deg);
 }
 
-
-
  /*---------------------------About---------------------------*/
 
 .about-area{
@@ -213,7 +206,6 @@ profile-photo .img{
   margin-bottom: 0;
 }
 
-
 /*---------------------------Button---------------------------*/
 
 .btn-group{
@@ -233,7 +225,6 @@ profile-photo .img{
 .btn.active{
   border-color: #fed700;
 }
-
 
 /*---------------------------Education & Internship---------------------------*/
 
@@ -319,7 +310,6 @@ profile-photo .img{
   text-align: justify;
 }
 
-
 .timeline-bar {
   background-color: #e0e0e0;
   border-radius: 5px;
@@ -395,8 +385,6 @@ profile-photo .img{
   margin-bottom: 25px; /* Adjust spacing between each skill */
 }
 
-
-
 /*---------------------------Projects---------------------------*/
 .project-content{
   padding: 90px 0;
@@ -454,8 +442,6 @@ profile-photo .img{
   border-color: #fed700;
 }
 
-
-
 /*---------------------------Contact Me---------------------------*/
 .contact-content{
   padding: 100px 0;
@@ -500,11 +486,6 @@ profile-photo .img{
   display: block;
 }
 
-
-
-
-
-
 /*---------------------------Footer---------------------------*/
 .footer {
     max-width: 950px;
@@ -527,10 +508,7 @@ profile-photo .img{
     font-size: 12px;
   }
 
-
-
-
- /*------------------- Responsive Design on small screen -------------------*/
+/*------------------- Responsive Design on small screen -------------------*/
 
 /* Medium layout */
 @media only screen and (min-width:1000px) and (max-width:1200px){
@@ -549,15 +527,12 @@ profile-photo .img{
   }
 }
 
-
-
 /* tablet layout */
 @media only screen and (min-width:768px) and (max-width:999px){
   .container{
     width: 750px;
   } 
 }  
-
 
 /* Mobile Layout */
 @media only screen and (max-width:767px){
